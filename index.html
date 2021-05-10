@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+	<link rel="icon" type="image/png" href="assets/img/favicon.ico">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+
+	<title>Sign In for Anting E-commerce</title>
+
+	<meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' name='viewport' />
+    <meta name="viewport" content="width=device-width" />
+
+    <style>
+        body{
+            margin: 0;
+            padding: 0;
+            background: url(pic.jpg);
+            background-size: cover;
+            font-family: sans-serif;
+        }
+
+        .loginbox{
+            width: 650px;
+            height: 450px;
+            background: #fff;
+            color: #072152;
+            top: 50%;
+            left: 50%;
+            position: absolute;
+            transform: translate(-50%, -50%);
+            box-sizing: border-box;
+            padding: 70px 30px;
+        }
+
+
+        h1{
+            margin: 0;
+            padding: 0 0 20px;
+            text-align: center;
+            font-size: 22px;
+        }
+
+        h2{
+            margin-top: 0% ;  
+            text-align: center;
+            font-size: 26px;
+            color: red;
+        }
+
+        .loginbox p{
+            margin: 0;
+            padding: 0;
+            font-weight: bold;
+        }
+
+        .loginbox input{
+            width: 100%;
+            margin-bottom: 20px;
+        }
+
+        .loginbox input[type="text"], input[type="password"]
+        {
+            border: none;
+            border-bottom: 1px solid #8C98A9;
+            background: transparent;
+            outline: none;
+            height: 40px;
+            color: #8C98A9;
+            font-size: 16px;
+        }
+
+        .loginbox input[type="submit"]
+        {
+            border: none;
+            outline: none;
+            height: 40px;
+            background: #072152;
+            color: #fff;
+            font-size: 18px;
+            border-radius: 20px;
+        }
+
+        .loginbox input[type="submit"]:hover
+        {
+            cursor: pointer;
+            background: #343F66;
+            color: #fff;
+        }
+
+        .loginbox a{
+            text-decoration: none;  
+            font-size: 16px;
+            line-height: 20px;color: darkgray;
+        }
+    
+        .loginbox a:hover
+        {
+            
+            color: #343F66;
+        }
+    </style>
+</head>
+<body>
+    <div class="loginbox">
+        <h2>ANTING</h2>
+        <h1>Admin Sign In</h1>
+        <form action="dashboard.html">
+            <p>User name</p>
+            <input type="text" name="" placeholder="Enter username">
+            <p>Password</p>
+            <input type="password" name="" placeholder="Enter the Password">
+            <input type="submit" name="" value="Login">
+            <a href="#">forget password?</a>
+        </form>
+    </div>
+</body>
+</html>
